@@ -2,12 +2,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Happy birthday:D</title>
+    <title>Happy Birthday :D</title>
     <style>
         body {
-            font-family: 'Georgia', serif;
-            background-color: #f7f3ed; /* Мягкий фон */
-            color: #7d4a4a; /* Более яркий винтажный цвет текста */
+            font-family: 'Times New Roman', serif; /* Classic serif font for vintage feel */
+            background-color: #f3ece3; /* Softer pastel background color */
+            color: #5e4c4c; /* Softer vintage text color */
             margin: 0;
             padding: 0;
         }
@@ -29,7 +29,7 @@
 
         .header h1 {
             font-size: 2.5em;
-            color: #b85a60; /* Яркий винтажный розовый цвет */
+            color: #a67a73; /* Softer vintage pink color */
         }
 
         .gallery {
@@ -46,15 +46,17 @@
 
         .message {
             text-align: left;
-            border: 2px solid #b85a60; /* Более яркая и толстая рамка */
-            padding: 30px; /* Увеличенный отступ для большего акцента */
+            border: 2px solid #a67a73; /* Softer and thicker border */
+            padding: 30px; /* Increased padding for emphasis */
             width: 100%;
-            max-width: 500px; /* Широкий блок сообщения */
+            max-width: 500px; /* Wider message block */
             margin-bottom: 40px;
+            background-color: #f9f4ef; /* Light pastel background for the message */
         }
 
         .message h2 {
-            color: #b85a60; /* Яркий винтажный розовый цвет */
+            color: #a67a73; /* Softer vintage pink color */
+            font-family: 'Courier New', monospace; /* Adding a more vintage styled font */
         }
 
         .footer {
@@ -62,7 +64,7 @@
             justify-content: space-between;
             align-items: center;
             width: 100%;
-            max-width: 500px; /* Широкий футер для соответствия блоку сообщения */
+            max-width: 500px; /* Wider footer to match message block */
             margin-top: 20px;
         }
 
@@ -73,9 +75,14 @@
 
         .date {
             font-size: 1.5em;
-            color: #7d4a4a; /* Более яркий винтажный цвет текста */
+            color: #5e4c4c; /* Softer vintage text color */
         }
 
+        .signature {
+            font-family: 'Brush Script MT', cursive; /* Script font for a handwritten look */
+            font-size: 1.2em;
+            color: #5e4c4c; /* Softer vintage text color */
+        }
     </style>
 </head>
 <body>
@@ -95,9 +102,10 @@
             <p>August 28</p>
             <h2>Поздравляем вас с одним из ваших особенных дней</h2>
             <p>Сегодня начинается самое невероятное приключение в вашей жизни. Вы открываете дверь в новый мир, полный возможностей, приключений и удивительных открытий. Пусть этот день станет отправной точкой для исполнения всех ваших желаний и достижения самых смелых целей.
-ВЫ — особенный человек, который наполняет нашу жизнь светом и теплом. Ваша улыбка способна растопить даже самое холодное сердце, а ваше доброе сердце готово принять в свои объятия весь мир.
-Пусть удача всегда будет на вашей стороне, а успех и благополучие станут вашими верными спутниками. Не бойся мечтать высоко, ведь именно там вас ждут самые невероятные чудеса и незабываемые моменты.
-Желаем вам крепкого здоровья, неиссякаемой энергии и бесконечного вдохновения. Пусть каждый день будет наполнен любовью, счастьем и радостью.</p>
+                ВЫ — особенный человек, который наполняет нашу жизнь светом и теплом. Ваша улыбка способна растопить даже самое холодное сердце, а ваше доброе сердце готово принять в свои объятия весь мир.
+                Пусть удача всегда будет на вашей стороне, а успех и благополучие станут вашими верными спутниками. Не бойтесь мечтать высоко, ведь именно там вас ждут самые невероятные чудеса и незабываемые моменты.
+                Желаем вам крепкого здоровья, неиссякаемой энергии и бесконечного вдохновения. Пусть каждый день будет наполнен любовью, счастьем и радостью.
+            </p>
             <p class="signature">Letterfromhim</p>
         </div>
         <div class="footer">
@@ -110,10 +118,10 @@
         </div>
     </div>
 
-    <!-- Фоновая музыка -->
+    <!-- Background music -->
     <audio autoplay loop>
         <source src="background-music.mp3" type="audio/mpeg">
-        Ваш браузер не поддерживает аудио элемент.
+        Your browser does not support the audio element.
     </audio>
 </body>
 </html>
