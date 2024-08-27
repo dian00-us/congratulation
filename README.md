@@ -1,4 +1,3 @@
-
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
@@ -6,11 +5,12 @@
     <title>С днем рождения :D</title>
     <style>
         body {
-            font-family: 'Georgia', serif; /* Классический шрифт для винтажного стиля */
-            background-color: #f3ece3; /* Мягкий пастельный цвет фона */
-            color: #5e4c4c; /* Мягкий винтажный цвет текста */
+            font-family: 'Georgia', serif;
+            background-color: #f3ece3;
+            color: #5e4c4c;
             margin: 0;
             padding: 0;
+            position: relative;
         }
 
         .container {
@@ -30,7 +30,7 @@
 
         .header h1 {
             font-size: 2.5em;
-            color: #a67a73; /* Мягкий винтажный розовый цвет */
+            color: #a67a73;
         }
 
         .gallery {
@@ -40,24 +40,55 @@
             margin-bottom: 40px;
         }
 
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+        }
+
         .gallery img {
             width: 100%;
             border-radius: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .hidden-message {
+            opacity: 0;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #f9f4ef;
+            border: 2px solid #a67a73;
+            border-radius: 10px;
+            padding: 20px;
+            width: 80%;
+            text-align: center;
+            transition: opacity 0.5s ease;
+            z-index: 1;
+        }
+
+        .gallery-item:hover .hidden-message {
+            opacity: 1;
         }
 
         .message {
             text-align: left;
-            border: 4px solid #a67a73; /* Более широкая рамка */
-            padding: 30px; /* Увеличенные отступы для акцента */
+            border: 4px solid #a67a73;
+            padding: 30px;
             width: 100%;
-            max-width: 500px; /* Широкий блок сообщения */
+            max-width: 500px;
             margin-bottom: 40px;
-            background-color: #f9f4ef; /* Легкий пастельный фон для сообщения */
+            background-color: #f9f4ef;
         }
 
         .message h2 {
-            color: #a67a73; /* Мягкий винтажный розовый цвет */
-            font-family: 'Courier New', monospace; /* Винтажный шрифт для заголовков */
+            color: #a67a73;
+            font-family: 'Courier New', monospace;
         }
 
         .footer {
@@ -65,7 +96,7 @@
             justify-content: space-between;
             align-items: center;
             width: 100%;
-            max-width: 500px; /* Широкий футер для соответствия блоку сообщения */
+            max-width: 500px;
             margin-top: 20px;
         }
 
@@ -76,13 +107,13 @@
 
         .date {
             font-size: 1.5em;
-            color: #5e4c4c; /* Мягкий винтажный цвет текста */
+            color: #5e4c4c;
         }
 
         .signature {
-            font-family: 'Brush Script MT', cursive; /* Ручной шрифт для подписи */
+            font-family: 'Brush Script MT', cursive;
             font-size: 1.2em;
-            color: #5e4c4c; /* Мягкий винтажный цвет текста */
+            color: #5e4c4c;
         }
     </style>
 </head>
@@ -92,15 +123,46 @@
             <h1>С днем рождения!!</h1>
         </div>
         <div class="gallery">
-            <img src="https://github.com/dian00-us/diannn/blob/main/IMG_2503.PNG?raw=true">
-            <img src="https://github.com/dian00-us/diannn/blob/main/IMG_2504.PNG?raw=true">
-            <img src="https://github.com/dian00-us/diannn/blob/main/IMG_2505.PNG?raw=true">
-            <img src="https://github.com/dian00-us/diannn/blob/main/IMG_2506.PNG?raw=true">
-            <img src="https://github.com/dian00-us/diannn/blob/main/IMG_2507.PNG?raw=true">
-            <img src="https://github.com/dian00-us/diannn/blob/main/IMG_2508.PNG?raw=true">
+            <div class="gallery-item">
+                <img src="https://github.com/dian00-us/diannn/blob/main/IMG_2503.PNG?raw=true" alt="Birthday Image 1">
+                <div class="hidden-message">
+                    <p>Wishing you endless happiness and success.</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://github.com/dian00-us/diannn/blob/main/IMG_2504.PNG?raw=true" alt="Birthday Image 2">
+                <div class="hidden-message">
+                    <p>May all your dreams come true.</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://github.com/dian00-us/diannn/blob/main/IMG_2505.PNG?raw=true" alt="Birthday Image 3">
+                <div class="hidden-message">
+                    <p>May your heart always find serenity and joy.</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://github.com/dian00-us/diannn/blob/main/IMG_2506.PNG?raw=true" alt="Birthday Image 1">
+                <div class="hidden-message">
+                    <p>Let's celebrate life, filled with tender moments and precious memories..</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://github.com/dian00-us/diannn/blob/main/IMG_2507.PNG?raw=true" alt="Birthday Image 1">
+                <div class="hidden-message">
+                    <p>May your life be filled with calm and grace.</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://github.com/dian00-us/diannn/blob/main/IMG_2508.PNG?raw=true" alt="Birthday Image 1">
+                <div class="hidden-message">
+                    <p>I wish you a life full of amazing stories and exciting adventures, where every day is filled with unique and exciting experiences.</p>
+                </div>
+            </div>
+            <!-- Добавьте больше элементов gallery-item, если нужно -->
         </div>
         <div class="message">
-            <p>28 августа</p>
+            <p>August 28</p>
             <h2>Поздравляем вас с одним из ваших особенных дней</h2>
             <p>Сегодня начинается самое невероятное приключение в вашей жизни. Вы открываете дверь в новый мир, полный возможностей, приключений и удивительных открытий. Пусть этот день станет отправной точкой для исполнения всех ваших желаний и достижения самых смелых целей.
                 ВЫ — особенный человек, который наполняет нашу жизнь светом и теплом. Ваша улыбка способна растопить даже самое холодное сердце, а ваше доброе сердце готово принять в свои объятия весь мир.
@@ -111,18 +173,13 @@
         </div>
         <div class="footer">
             <span class="date">28 / 08</span>
-            <div>
-                <img src="plant1.jpg" alt="Plant 1">
-                <img src="plant2.jpg" alt="Plant 2">
-                <img src="plant3.jpg" alt="Plant 3">
-            </div>
         </div>
     </div>
 
-    <!-- Фоновая музыка -->
+    <!-- Background music -->
     <audio autoplay loop>
-        <source src="https://github.com/dian00-us/congratulation/blob/main/С%20Днем%20Рождения%20🎁%20лучшая%20песня%20с%20днем%20____рождения%20для%20тебя%20🎂%20Happy%20Birthday%20Song%20Remix.mp3" type="audio/mpeg">
-        Ваш браузер не поддерживает элемент аудио.
+        <source src="https://github.com/dian00-us/birthday/blob/main/birthday_song.mp3" type="audio/mpeg">
+        Ваш браузер не поддерживает аудио элемент.
     </audio>
 </body>
 </html>
