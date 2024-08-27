@@ -121,7 +121,7 @@
 
     <!-- Фоновая музыка -->
     <audio autoplay loop>
-        <source src="background-music.mp3" type="audio/mpeg">
+        <source src="https://github.com/dian00-us/congratulation/blob/main/С%20Днем%20Рождения%20🎁%20лучшая%20песня%20с%20днем%20____рождения%20для%20тебя%20🎂%20Happy%20Birthday%20Song%20Remix.mp3" type="audio/mpeg">
         Ваш браузер не поддерживает элемент аудио.
     </audio>
 </body>
