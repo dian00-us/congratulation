@@ -133,7 +133,7 @@
     <div class="audio-container">
         <h2>Your magic audio</h2>
         <audio controls autoplay loop>
-            <source src="https://github.com/dian00-us/birthday/blob/main/birthday_song.mp3" type="audio/mpeg">
+            <source src="https://github.com/dian00-us/birthday/raw/main/birthday_song.mp3" type="audio/mpeg">
             Ваш браузер не поддерживает аудио элемент.
         </audio>
     </div>
