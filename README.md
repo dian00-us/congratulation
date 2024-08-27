@@ -81,7 +81,7 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>My Baby</h1>
+            <h1>С днем рождения!!</h1>
         </div>
         <div class="gallery">
             <img src="https://github.com/dian00-us/diannn/blob/main/IMG_2503.PNG?raw=true">
@@ -92,13 +92,16 @@
             <img src="https://github.com/dian00-us/diannn/blob/main/IMG_2508.PNG?raw=true">
         </div>
         <div class="message">
-            <p>September 23</p>
-            <h2>Happy third month, little flower.</h2>
-            <p>This is a small gift from me, one of the thousands that you deserve, since we are finally celebrating three months since we made our beautiful relationship official. You don't know how happy it makes me to be your boyfriend and a small sample of my happiness is this adorable bunny that we are going to adopt together, go ahead, give him a name!</p>
+            <p>August 28</p>
+            <h2>Поздравляем вас с одним из ваших особенных дней</h2>
+            <p>Сегодня начинается самое невероятное приключение в вашей жизни. Вы открываете дверь в новый мир, полный возможностей, приключений и удивительных открытий. Пусть этот день станет отправной точкой для исполнения всех ваших желаний и достижения самых смелых целей.
+ВЫ — особенный человек, который наполняет нашу жизнь светом и теплом. Ваша улыбка способна растопить даже самое холодное сердце, а ваше доброе сердце готово принять в свои объятия весь мир.
+Пусть удача всегда будет на вашей стороне, а успех и благополучие станут вашими верными спутниками. Не бойся мечтать высоко, ведь именно там вас ждут самые невероятные чудеса и незабываемые моменты.
+Желаем вам крепкого здоровья, неиссякаемой энергии и бесконечного вдохновения. Пусть каждый день будет наполнен любовью, счастьем и радостью.</p>
             <p class="signature">Letterfromhim</p>
         </div>
         <div class="footer">
-            <span class="date">23 / 09</span>
+            <span class="date">28 / 08</span>
             <div>
                 <img src="plant1.jpg" alt="Plant 1">
                 <img src="plant2.jpg" alt="Plant 2">
