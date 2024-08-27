@@ -47,7 +47,7 @@
         .message {
             text-align: left;
             border: 2px solid #a67a73; /* Softer and thicker border */
-            padding: 30px; /* Increased padding for emphasis */
+            padding: 5px; /* Increased padding for emphasis */
             width: 100%;
             max-width: 500px; /* Wider message block */
             margin-bottom: 40px;
