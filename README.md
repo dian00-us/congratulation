@@ -13,6 +13,18 @@
             position: relative;
         }
 
+        .audio-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .audio-container h2 {
+            font-size: 1.5em;
+            color: #a67a73;
+            margin: 0;
+            padding: 0;
+        }
+
         .container {
             display: flex;
             justify-content: center;
@@ -118,6 +130,14 @@
     </style>
 </head>
 <body>
+    <div class="audio-container">
+        <h2>Your magic audio</h2>
+        <audio controls autoplay loop>
+            <source src="https://github.com/dian00-us/birthday/blob/main/birthday_song.mp3" type="audio/mpeg">
+            Ваш браузер не поддерживает аудио элемент.
+        </audio>
+    </div>
+
     <div class="container">
         <div class="header">
             <h1>С днем рождения!!</h1>
@@ -126,60 +146,54 @@
             <div class="gallery-item">
                 <img src="https://github.com/dian00-us/diannn/blob/main/IMG_2503.PNG?raw=true" alt="Birthday Image 1">
                 <div class="hidden-message">
-                    <p>Wishing you endless happiness and success.</p>
+                    <p>Wishing you endless happiness and success. 🎉</p>
                 </div>
             </div>
             <div class="gallery-item">
                 <img src="https://github.com/dian00-us/diannn/blob/main/IMG_2504.PNG?raw=true" alt="Birthday Image 2">
                 <div class="hidden-message">
-                    <p>May all your dreams come true.</p>
+                    <p>May all your dreams come true. 🌟</p>
                 </div>
             </div>
             <div class="gallery-item">
                 <img src="https://github.com/dian00-us/diannn/blob/main/IMG_2505.PNG?raw=true" alt="Birthday Image 3">
                 <div class="hidden-message">
-                    <p>May your heart always find serenity and joy.</p>
+                    <p>May your heart always find serenity and joy. 💖</p>
                 </div>
             </div>
             <div class="gallery-item">
                 <img src="https://github.com/dian00-us/diannn/blob/main/IMG_2506.PNG?raw=true" alt="Birthday Image 1">
                 <div class="hidden-message">
-                    <p>Let's celebrate life, filled with tender moments and precious memories..</p>
+                    <p>Let's celebrate life, filled with tender moments and precious memories.. 🥂</p>
                 </div>
             </div>
             <div class="gallery-item">
                 <img src="https://github.com/dian00-us/diannn/blob/main/IMG_2507.PNG?raw=true" alt="Birthday Image 1">
                 <div class="hidden-message">
-                    <p>May your life be filled with calm and grace.</p>
+                    <p>May your life be filled with calm and grace. 🌸</p>
                 </div>
             </div>
             <div class="gallery-item">
                 <img src="https://github.com/dian00-us/diannn/blob/main/IMG_2508.PNG?raw=true" alt="Birthday Image 1">
                 <div class="hidden-message">
-                    <p>I wish you a life full of amazing stories and exciting adventures, where every day is filled with unique and exciting experiences.</p>
+                    <p>I wish you a life full of amazing stories and exciting adventures, where every day is filled with unique and exciting experiences. 🌍✨</p>
                 </div>
             </div>
             <!-- Добавьте больше элементов gallery-item, если нужно -->
         </div>
         <div class="message">
             <p>August 28</p>
-            <h2>Поздравляем вас с одним из ваших особенных дней</h2>
+            <h2>Поздравляем вас с одним из ваших особенных дней 🎉</h2>
             <p>Сегодня начинается самое невероятное приключение в вашей жизни. Вы открываете дверь в новый мир, полный возможностей, приключений и удивительных открытий. Пусть этот день станет отправной точкой для исполнения всех ваших желаний и достижения самых смелых целей.
                 ВЫ — особенный человек, который наполняет нашу жизнь светом и теплом. Ваша улыбка способна растопить даже самое холодное сердце, а ваше доброе сердце готово принять в свои объятия весь мир.
                 Пусть удача всегда будет на вашей стороне, а успех и благополучие станут вашими верными спутниками. Не бойся мечтать высоко, ведь именно там вас ждут самые невероятные чудеса и незабываемые моменты.
-                Желаем вам крепкого здоровья, неиссякаемой энергии и бесконечного вдохновения. Пусть каждый день будет наполнен любовью, счастьем и радостью.
+                Желаем вам крепкого здоровья, неиссякаемой энергии и бесконечного вдохновения. Пусть каждый день будет наполнен любовью, счастьем и радостью. 🌟💖
             </p>
-            <p class="signature">Letterfromhim</p>
+            <p class="signature">Letterforyou</p>
         </div>
         <div class="footer">
             <span class="date">28 / 08</span>
         </div>
     </div>
-
-    <!-- Background music -->
-    <audio autoplay loop>
-        <source src="https://github.com/dian00-us/birthday/blob/main/birthday_song.mp3" type="audio/mpeg">
-        Ваш браузер не поддерживает аудио элемент.
-    </audio>
 </body>
 </html>
