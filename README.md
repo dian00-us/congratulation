@@ -85,11 +85,11 @@
         </div>
         <div class="gallery">
             <img src="https://github.com/dian00-us/diannn/blob/main/IMG_2503.PNG?raw=true">
-            <img src="image2.jpg" alt="Image 2">
-            <img src="image3.jpg" alt="Image 3">
-            <img src="image4.jpg" alt="Image 4">
-            <img src="image5.jpg" alt="Image 5">
-            <img src="image6.jpg" alt="Image 6">
+            <img src="https://github.com/dian00-us/diannn/blob/main/IMG_2504.PNG?raw=true">
+            <img src="https://github.com/dian00-us/diannn/blob/main/IMG_2505.PNG?raw=true">
+            <img src="https://github.com/dian00-us/diannn/blob/main/IMG_2506.PNG?raw=true">
+            <img src="https://github.com/dian00-us/diannn/blob/main/IMG_2507.PNG?raw=true">
+            <img src="https://github.com/dian00-us/diannn/blob/main/IMG_2508.PNG?raw=true">
         </div>
         <div class="message">
             <p>September 23</p>
